@@ -22,26 +22,25 @@ describe('Rodando Testes', () => {
     cy.get('#field-\\:r6\\:').type("61995327191")
     cy.get('.chakra-checkbox__control').click()
     cy.contains('button' , "Enviar Receita").click()
+    cy.wait(5000);
     cy.contains("Receita enviada" ,  { timeout: 5000 }).should('be.visible')
   })
 })
 
-describe('Sending shots to sharepoint', () => {
+describe('Mandar fotos sharepoint', () => {
   after(() => {
     cy.task('rmFiles')
   })
-  it('Mandar fotos sharepoint', () => {
+  it('Upload do sharepoint', () => {
     cy.task('getFiles').then(files => { 
       if (files.length > 0) {
         cy.visit('https://manipulaecombr-my.sharepoint.com/:f:/g/personal/matheus_marinho_manipulae_com_br/Eklx5HErM45OsGgxOLHB3Q0BxZZSzVBzW0FvUKY0EoVajQ?e=XyoPxV');
         cy.wait(5000);
-        
         for(const file of files){ 
           cy.get('[data-automationid="uploadCommand"]').click()
           cy.get('[data-automationid="uploadFileCommand"]').click()
           cy.wait(2000);
           cy.get('input[type="file"]').selectFile(`cypress/screenshots/${file}`, {force: true})
-          
           cy.wait(5000);
         }
       }
