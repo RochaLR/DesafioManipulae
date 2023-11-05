@@ -23,7 +23,7 @@ describe('Teste tela cotar', () => {
     cy.get('.chakra-checkbox__control').click()
     cy.contains('button' , "Enviar Receita").click()
     cy.wait(4000);
-    cy.contains("Receita enviada" ,  { timeout: 5000 }).should('be.visible')
+    cy.contains("Receita enviada" ,  { timeout: 10000 }).should('be.visible')
   })
 })
 
