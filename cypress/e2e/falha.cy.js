@@ -22,7 +22,7 @@ describe('Rodando Testes', () => {
     cy.get('#field-\\:r6\\:').type("61995327191")
     cy.get('.chakra-checkbox__control').click()
     cy.contains('button' , "Enviar Receita").click()
-    cy.wait(5000);
+    cy.wait(4000);
     cy.contains("falha aqui" ,  { timeout: 5000 }).should('be.visible')
   })
 })
