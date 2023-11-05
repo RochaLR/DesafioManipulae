@@ -15,9 +15,9 @@ npx cypress open
 ```
 
 
-5. Selecionar opção de teste E2E
+3. Selecionar opção de teste E2E
 
-6. Executar o arquivo de teste cotar.cy.js 
+4. Executar o arquivo de teste cotar.cy.js ou falha.cy.js
 
 # COTAR.CY.JS TESTA O FLUXO DE CAMINHO FELIZ
 # Desafio extra: FALHA.CY.JS POSSUI UMA FALHA FORCADA E ENTRA NO FLUXO DO SHARE 
