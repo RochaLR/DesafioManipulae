@@ -4,11 +4,15 @@
 Desafio tester para vaga de QA.
 
 1. instalar a dependencias do projeto
-- npm i
+```
+npm i
+```
 
 2. Executar o cypress
-```npx cypress open
-
+ 
+```
+npx cypress open
+```
 
 
 5. Selecionar opção de teste E2E
