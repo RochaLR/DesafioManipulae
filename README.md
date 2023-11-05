@@ -8,7 +8,7 @@ Desafio tester para vaga de QA.
 
 2. Executar o cypress
 ```npx cypress open
-```
+
 
 
 5. Selecionar opção de teste E2E
