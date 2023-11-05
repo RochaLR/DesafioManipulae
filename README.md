@@ -7,12 +7,13 @@ Desafio tester para vaga de QA.
 - npm i
 
 2. Executar o cypress
-- npx cypress open
+```npx cypress open
+```
 
 
-3. Selecionar opção de teste E2E
+5. Selecionar opção de teste E2E
 
-4. Executar o arquivo de teste cotar.cy.js 
+6. Executar o arquivo de teste cotar.cy.js 
 
 # COTAR.CY.JS TESTA O FLUXO DE CAMINHO FELIZ
 # Desafio extra: FALHA.CY.JS POSSUI UMA FALHA FORCADA E ENTRA NO FLUXO DO SHARE 
