@@ -15,5 +15,5 @@ Desafio tester para vaga de QA.
 4. Executar o arquivo de teste cotar.cy.js 
 
 # COTAR.CY.JS TESTA O FLUXO DE CAMINHO FELIZ
-# FALHA.CY.JS POSSUI UMA FALHA FORCADA E ENTRA NO FLUXO DO SHARE 
+# Desafio extra: FALHA.CY.JS POSSUI UMA FALHA FORCADA E ENTRA NO FLUXO DO SHARE 
 
