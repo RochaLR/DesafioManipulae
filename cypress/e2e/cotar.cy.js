@@ -3,7 +3,7 @@ function getDateString(){
    return new Date().getTime()
 }
 
-describe('Rodando Testes', () => {
+describe('Teste tela cotar', () => {
   afterEach(function () {
     if (this.currentTest.state === 'failed'){
       const currentmilis = getDateString()
